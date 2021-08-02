@@ -1,0 +1,23 @@
+{
+  "name": "joke-fetcher-vanilla",
+  "version": "1.0.0",
+  "description": "Joke fetcher from joke api",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html",
+    "clean": "rimraf dist/ .parcel-cache/",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "joke",
+    "fetcher"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.0.2",
+    "parcel": "^2.0.0-beta.3.1",
+    "rimraf": "^3.0.2"
+  }
+}
